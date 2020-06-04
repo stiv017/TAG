@@ -1,0 +1,71 @@
+.licni-opis
+{
+	display:flex;
+	justify-content:flex-start;
+	padding:20px;
+}
+.slika
+{
+	margin-left:152px;
+	margin-right:152px;
+}
+.informacije{margin-left:152px;margin-right:152px;}
+.ime,.naslov
+{
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-size:26px;
+	text-align:center;
+	font-weight: 400;
+    line-height: 1.65;
+	white-space: pre-line;
+}
+.tekst
+{
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	font-weight: 400;
+    line-height: 1.65;
+	white-space: pre-line;
+}
+.tekst1
+{
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	text-align:center;
+	font-weight: 400;
+    line-height: 1.65;
+	white-space: pre-line;
+}
+
+.logoFirme
+{
+	margin-left:480px;
+	margin-top:-80px;
+}
+@media screen and  (max-width: 640px) {
+	.ime,.naslov{font-size:16px;}
+	.tekst,.tekst1{font-size:12px;}
+	.logoFirme{width:0px;height;0px;}
+	.informacije{margin-left:12px;margin-right:12px;}
+	.slika
+{
+	margin-left:8px;
+	margin-right:8px;
+	
+}
+.t{width:50%;height:50%;}
+}
+@media screen and (min-width: 641px) and (max-width: 1280px)
+{
+	.t{width:75%;height:75%;}
+	.ime,.naslov{font-size:24px;}
+	.tekst,.tekst1{font-size:22px;}
+	.logoFirme{width:0px;height;0px;}
+	.informacije{margin-left:12px;margin-right:12px;}
+	.slika
+{
+	margin-left:8px;
+	margin-right:8px;
+	
+}
+}
